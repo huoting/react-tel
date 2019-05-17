@@ -1,0 +1,49 @@
+.Sidebar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 200px;
+    bottom: 0;
+    background-color: #404040;
+    transition: all .5s;
+    &.sidebar-hidden {
+        transition: all .5s;
+        width: 80px;
+    }
+    .user-wrap {
+        padding: 40px 0;
+    }
+    .scrollbar-content {
+        height: 100%;
+        overflow: hidden;
+        overflow-y: auto;
+        .ant-menu-dark, .ant-menu-dark .ant-menu-sub {
+            background-color: #404040;
+        }
+        .ant-menu-submenu {
+            & > .ant-menu {
+                background-color: #333;
+            }
+        }
+    }
+}
+.sidebar-hidden {
+    .scrollbar-content {
+        .link-href {
+            overflow: hidden;
+        }
+        .ant-menu-submenu-title {
+            span {
+                overflow: hidden;
+                display: inline-block;
+                width: 16px;
+            }
+        }
+    }
+}
+.ant-menu-submenu-popup {
+    background-color: #333!important;
+    .ant-menu-sub {
+        background-color: #333!important;
+    }
+}
