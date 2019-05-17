@@ -1,0 +1,25 @@
+.Hamburger {
+    background-color: #fff;
+    height: 50px;
+    line-height: 50px;
+    .breadcrumb {
+        width: 300px;
+        float: left;
+        line-height: 50px;
+        margin-left: 20px;
+        .el-breadcrumb__item {
+            .item-href, .el-breadcrumb__item__inner {
+                font-size: 14px;
+            }
+        }
+    }
+    .user-open {
+        float: right;
+        margin: 0 40px 0 0;
+        .img-wrap {
+            width: 35px;
+            height: 35px;
+            cursor: pointer;
+        }
+    }
+}

@@ -1,0 +1,16 @@
+@import './reset.scss';
+@import './variables.scss';
+
+.main-width {
+    // width: $width;
+    margin: 0 auto;
+}
+#container {
+    position: relative;
+    margin-left: 200px;
+    transition: all .5s;
+}
+.container-hidden {
+    margin-left: 80px!important;
+    transition: all .5s;
+}

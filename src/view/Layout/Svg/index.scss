@@ -1,0 +1,13 @@
+.svg-icon {
+    width: 25px;
+    height: 25px;
+    fill: #999;
+    cursor: pointer;
+    float: left;
+    margin: 12px 20px 0 10px;
+    transition: all .5s;
+    &.svg-icon-transform {
+        transform: rotate(90deg);
+        transition: all .5s;
+    }
+}

@@ -1,0 +1,79 @@
+h1,
+h2,
+h3,
+h4,
+h4,
+h5,
+a,
+nav {
+    margin: 0;
+    padding: 0;
+}
+
+body,
+dl,
+dt,
+dd,
+ul,
+ol,
+li,
+pre,
+form,
+fieldset,
+input,
+p,
+blockquote,
+th,
+td {
+    font-weight: 400;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    line-height: 12px;
+}
+html, body {
+    width: 100%;
+    height: 100%;
+    background: #f0f2f5;
+    font-family: 'Segoe UI', 'PingFang SC', 'Hiragino Sans GB', 'Microsoft YaHei', 'Helvetica Neue', Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'!important;
+}
+body {
+    color: #666;
+    font-family: SimHei;
+    font-size: 14px;
+    text-align: left;
+}
+
+ol,
+ul {
+    list-style-image: none;
+    list-style-position: outside;
+    list-style-type: none;
+}
+
+.clearfix::after,
+.clearfix::before {
+    content: '';
+    display: block;
+    overflow: hidden;
+    clear: both;
+}
+
+a {
+    // display: inline-block;
+    text-decoration: none;
+}
+
+.clearfix::after, .clearfix::before {
+    content: '';
+    display: block;
+    overflow: hidden;
+    clear: both;
+}
+
+* {
+    box-sizing: border-box;
+    word-break:break-all;
+}

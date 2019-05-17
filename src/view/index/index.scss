@@ -1,0 +1,32 @@
+.index-contant {
+    padding: 20px;
+    .list-wrap {
+        margin: 20px 0 0;
+        display: flex;
+        justify-content: space-between;
+        .list {
+            background-color: #fff;
+            min-width: 32.33%;
+            width: 32.33%;
+            padding: 20px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            .anticon {
+                font-size: 40px;
+                color: #888;
+                margin: 0 10px 0 0;
+                &.red {
+                    color: red;
+                }
+                &.blue {
+                    color: #6cc788;
+                }
+            }
+            .num {
+                color: #666;
+                font-size: 16px;
+            }
+        }
+    }
+}
